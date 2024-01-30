@@ -19,10 +19,14 @@ public:
         }
     }
 
-    //потестувати що буде якщо немає слова 
     void addWord(const std::string& word, const std::string& definition) {
-        words[word] = definition;
-        std::cout << "Word '" << word << "' added to the dictionary\n";
+        if (!word.empty()) {
+            words[word] = definition;
+            std::cout << "Word '" << word << "' added to the dictionary\n";
+        }
+        else {
+            std::cout << "Error: Cannot add an empty word to the dictionary\n";
+        }
     }
 
     void deleteWord(const std::string& word) {
