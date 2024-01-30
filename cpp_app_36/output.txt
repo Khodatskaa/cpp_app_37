@@ -1,0 +1,13 @@
+Frequency Dictionary:
+brown: 9 occurrences
+dog: 9 occurrences
+flower: 9 occurrences
+fox: 9 occurrences
+jumps: 9 occurrences
+lazy: 9 occurrences
+over: 9 occurrences
+presence: 9 occurrences
+quick: 9 occurrences
+the: 19 occurrences
+
+Most commonly used word: the (19 occurrences)
