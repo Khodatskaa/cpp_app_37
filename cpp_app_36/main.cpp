@@ -19,6 +19,7 @@ public:
         }
     }
 
+    //потестувати що буде якщо немає слова 
     void addWord(const std::string& word, const std::string& definition) {
         words[word] = definition;
         std::cout << "Word '" << word << "' added to the dictionary\n";
